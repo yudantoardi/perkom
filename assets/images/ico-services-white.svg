@@ -1,0 +1,26 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="10.5" cy="24.5" r="9.5" stroke="white" stroke-width="2"/>
+<circle cx="52.5" cy="24.5" r="9.5" stroke="white" stroke-width="2"/>
+<circle cx="31.5" cy="11.5" r="9.5" stroke="white" stroke-width="2"/>
+<circle cx="10.5" cy="23.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="7" cy="53" r="2" stroke="white" stroke-width="2"/>
+<circle cx="52" cy="53" r="2" stroke="white" stroke-width="2"/>
+<circle cx="13" cy="39" r="2" stroke="white" stroke-width="2"/>
+<circle cx="58" cy="39" r="2" stroke="white" stroke-width="2"/>
+<circle cx="52.5" cy="23.5" r="3.5" stroke="white" stroke-width="2"/>
+<circle cx="31.5" cy="10.5" r="3.5" stroke="white" stroke-width="2"/>
+<path d="M4 31C6 28.3334 11.3 24.6 16.5 31" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M46 31C48 28.3334 53.3 24.6 58.5 31" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M15 16L21 12.5" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M42 12.5L48 16" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M25 18C27 15.3334 32.3 11.6 37.5 18" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M7 36.5V50.5" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M52 36.5V50.5" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M13 42V55.5" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M58 42V55.5" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<mask id="path-20-inside-1_117_163" fill="white">
+<rect x="23" y="58" width="23" height="6" rx="1"/>
+</mask>
+<rect x="23" y="58" width="23" height="6" rx="1" stroke="white" stroke-width="4" mask="url(#path-20-inside-1_117_163)"/>
+<path d="M26.5 58.5V58.3412C26.5 57.458 26.305 56.5856 25.9289 55.7864L23.4261 50.4679C22.8112 49.1613 22.3653 47.7816 22.0992 46.3623L21.4084 42.6783C21.1378 41.2351 20.6419 39.8434 19.9388 38.5544L19.1157 37.0454C18.6949 36.274 19.4022 35.3739 20.2512 35.6003L21.3925 35.9047C23.9164 36.5777 25.8555 38.6 26.4222 41.1498L27.5 46V46C28.7947 44.3817 29.5 42.3709 29.5 40.2984V23C29.5 21.8954 30.3954 21 31.5 21V21C32.6046 21 33.5 21.8954 33.5 23V39V33H37.5M37.5 39V33M37.5 33H40.5C41.0523 33 41.5 33.4477 41.5 34V39V35H42.5C44.1569 35 45.5 36.3431 45.5 38V39V51.2792C45.5 52.4037 45.184 53.5056 44.588 54.4592L43.795 55.728C43.2755 56.5592 43 57.5198 43 58.5V58.5" stroke="white" stroke-width="2" stroke-linecap="round"/>
+</svg>

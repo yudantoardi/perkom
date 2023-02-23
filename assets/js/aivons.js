@@ -520,6 +520,7 @@
           .removeClass("active-tab");
         $(target).fadeIn(300);
         $(target).addClass("active-tab");
+
       }
     });
   }
@@ -834,6 +835,7 @@
     });
   };
 
+  
 
 
 })(jQuery);

@@ -74,8 +74,16 @@
                                 <li>
                                     <a href="index.html">HOME</a>
                                 </li>
-                                <li>
-                                    <a href="about.html">ABOUT</a>
+                                <li class="dropdown  ">
+                                    <a href="about.html">About <i class="fa fa-angle-down"></i></a>
+                                    <ul>
+                                        <li>
+                                            <a href="about.html">About</a>
+                                        </li>
+                                        <li>
+                                            <a href="awards.html">Awards</a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li>
                                     <a href="solutions.html">OUR SOLUTIONS</a>
@@ -143,10 +151,10 @@
                     <div class="col-xl-12">
                         <div class="financial-advice__box tabs-box">
                             <ul class="tab-btns tab-buttons clearfix list-unstyled">
-                                <li data-tab="#infrastructure" class="tab-btn active-btn"><span>Infrastructure</span></li>
-                                <li data-tab="#security" class="tab-btn"><span>Security</span></li>
-                                <li data-tab="#business-solutions" class="tab-btn"><span>Business Solutions</span></li>
-                                <li data-tab="#managed-services" class="tab-btn"><span>Managed Services</span></li>
+                                <li data-tab="#infrastructure" data-target="#infrastructure" class="tab-btn scroll-to-target active-btn"><span>Infrastructure</span></li>
+                                <li data-tab="#security" data-target="#security" class="tab-btn scroll-to-target"><span>Security</span></li>
+                                <li data-tab="#business-solutions" data-target="#business-solutions" class="tab-btn scroll-to-target"><span>Business Solutions</span></li>
+                                <li data-tab="#managed-services" data-target="#managed-services" class="tab-btn scroll-to-target"><span>Managed Services</span></li>
                             </ul>
                             <div class="tabs-content">
                                 <div class="tab active-tab" id="infrastructure">
@@ -1001,7 +1009,22 @@
     <!-- template js -->
     <script src="assets/js/aivons.js"></script>
 
+    <script>
+        $(document).ready(function(){
+            //SOLUTION TAB
+            var Navigation = $(".tab-btns");
+                stickyDiv = "sticky";
+                Header = $('.page-header').height();
 
+            $(window).scroll(function() {
+                if( $(this).scrollTop() > 300 ) {
+                Navigation.addClass(stickyDiv);
+                } else {
+                Navigation.removeClass(stickyDiv);
+                }
+            });
+        });
+    </script>
 
 </body>
 

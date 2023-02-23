@@ -2640,7 +2640,7 @@ body.boxed-wrapper {
     background-color: var(--thm-black);
 }
 
-.cases-one__img>img {
+.cases-one__img img {
     width: 100%;
     mix-blend-mode: luminosity;
     transform: scale(1);
@@ -2648,9 +2648,10 @@ body.boxed-wrapper {
     transition: all 500ms ease;
 }
 
-.cases-one__single:hover .cases-one__img>img {
+.cases-one__single:hover .cases-one__img img {
     transform: scale(1.05);
     opacity: 1;
+    mix-blend-mode: normal;
 }
 
 .cases-one__content {
@@ -9518,6 +9519,9 @@ h4.section-title__subtitle{
     height: 100%;
     object-fit: cover;
 }
+figure.ratio{
+    margin-bottom: 0;
+}
 
 .sidebar__post-image{
     width: 80px;
@@ -9550,4 +9554,8 @@ h4.section-title__subtitle{
 }
 .about__right-text{
     text-align: justify;
+}
+
+.main-menu__list .dropdown a i{
+    margin-left: 10px;
 }

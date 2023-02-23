@@ -530,7 +530,7 @@ body.boxed-wrapper {
 
 .main-menu .main-menu__list>li+li,
 .stricky-header .main-menu__list>li+li {
-    margin-left: 64px;
+    margin-left: 40px;
 }
 
 @media only screen and (max-width: 1600px){
@@ -3231,7 +3231,7 @@ body.boxed-wrapper {
     position: relative;
     display: block;
     padding: 0 0 104px;
-    margin-top: -95px;
+    margin-top: -55px;
 }
 
 .financial-advice__box {
@@ -3249,7 +3249,7 @@ body.boxed-wrapper {
 .financial-advice__box .tab-btns .tab-btn {
     position: relative;
     float: left;
-    max-width: 390px;
+    max-width: 25%;
     width: 100%;
     text-align: center;
 }
@@ -3262,7 +3262,7 @@ body.boxed-wrapper {
     margin: 0;
     padding: 40.5px 0px;
     color: var(--thm-black);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 900;
     text-transform: uppercase;
     transition: all 500ms ease;
@@ -4012,7 +4012,6 @@ body.boxed-wrapper {
 .industries__content-box {
     position: relative;
     display: block;
-    padding-top: 48px;
 }
 
 .industries__content-box--service-page {
@@ -4022,8 +4021,8 @@ body.boxed-wrapper {
 .industries__single {
     position: relative;
     display: inline-block;
-    max-width: 284px;
-    width: 100%;
+    width: 25%;
+    margin-left: -5px;
     text-align: center;
     padding: 0 35px;
     margin-bottom: 30px;
@@ -5631,7 +5630,7 @@ body.boxed-wrapper {
     background-color: var(--thm-base);
     box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 4%);
     margin-bottom: 60px;
-    padding: 50px 50px 62px;
+    padding: 30px 36px 0;
 }
 
 
@@ -5997,10 +5996,11 @@ body.boxed-wrapper {
 }
 
 .page-header__bg {
-    background-image: url(../images/backgrounds/page-header-bg.jpg);
+    background-image: url(../images/bank/page-bg.jpeg);
     background-size: cover;
     background-color: var(--thm-black);
     background-blend-mode: luminosity;
+    background-attachment: fixed;
     opacity: 0.5;
     position: absolute;
     top: 0;
@@ -6856,7 +6856,7 @@ body.boxed-wrapper {
 .sidebar__post {
     position: relative;
     display: block;
-    padding: 45px 30px 20px;
+    padding: 30px 10px 20px;
     background-color: var(--thm-light);
     ;
 }
@@ -6944,7 +6944,7 @@ body.boxed-wrapper {
     display: block;
     background: var(--thm-light);
     ;
-    padding: 46px 30px 34px;
+    padding: 30px 10px 20px;
 }
 
 .sidebar__category .sidebar__title {
@@ -7112,7 +7112,6 @@ body.boxed-wrapper {
 
 .news-details__img>img {
     width: 100%;
-    mix-blend-mode: luminosity;
 }
 
 .news-details__date-box {
@@ -9020,7 +9019,6 @@ body.boxed-wrapper {
 .comment-one__form select {
     border: 1px solid #dedede;
     outline: none;
-    border: none;
     outline: none;
     display: block;
     -moz-appearance: none;
@@ -9390,4 +9388,144 @@ body.boxed-wrapper {
 .real-world__single:hover .real-world__icon-box .ico-cloud{
     background: url(../images/ico-cloud.svg) no-repeat center;
     background-size: contain;
+}
+figure img{
+    width: 100%;
+}
+
+.product-title h3{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.faq-one__left.product-list .accrodion-title{
+    padding: 15px 30px;
+}
+.faq-one__left.product-list .accrodion-content{
+    padding: 0 30px 20px;
+}
+
+.solutions-wrap{
+    padding: 60px 0;
+    position: relative;
+}
+.solutions-wrap.bg-silverlight{
+    background: none;
+}
+.solutions-wrap.bg-silverlight::before{
+    content: "";
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    background: url(../images/bank/product-section.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.5;
+    z-index: -1;
+}
+h3.section-title__subtitle{
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+h4.section-title__subtitle{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: var(--thm-primary);
+}
+
+.solutions-wrap .services-two__single{
+    height: 100%;
+    margin-bottom: 30px;
+}
+.solutions-wrap .col-xl-4{
+    margin-bottom: 30px;
+}
+
+.partners-list{
+    transform: translateX(5px);
+    -webkit-transform: translateX(5px);
+    -moz-transform: translateX(5px);
+    -ms-transform: translateX(5px);
+    -o-transform: translateX(5px);
+}
+.partners-list .industries__single{
+    margin-bottom: 0;
+    padding: 60px 30px;
+    border-top: 1px solid #e6e9ef;
+    margin-left: -5px;
+    width: 25%;
+    max-width: none;
+}
+.partners-list .industries__single figure{
+    width: 100%;
+    height: 80px;
+}
+.partners-list .industries__single figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.partners-list .industries__single::before{
+    height: 100%;
+}
+.partners-list .industries__single:nth-child(4n+1)::before{
+    display: none;
+}
+.partners-list .industries__single:nth-child(1),
+.partners-list .industries__single:nth-child(2),
+.partners-list .industries__single:nth-child(3),
+.partners-list .industries__single:nth-child(4){
+    border-top: none;
+}
+
+.ratio{
+    width: 100%;
+    height: 0;
+    position: relative;
+}
+.ratio-50{
+    padding-top: 50%;
+}
+.ratio-33{
+    padding-top: 33.33%;
+}
+.ratio-16{
+    padding-top: 56.25%;
+}
+.ratio-1{
+    padding-top: 100%;
+}
+.ratio-75{
+    padding-top: 75%;
+}
+.ratio-135{
+    padding-top: 135%;
+}
+.ratio img,
+.ratio iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sidebar__post-image{
+    width: 80px;
+}
+.sidebar__post-image figure{
+    margin-bottom: 0;
+}
+.sidebar__post-content{
+    width: calc(100% - 80px);
 }

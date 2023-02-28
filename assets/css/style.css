@@ -9604,5 +9604,8 @@ figure.ratio{
     font-size: 14px;
     font-weight: 600;
 }
-
+.sidebar__category-list li a i{
+    float: right;
+    margin-top: 10px;
+}
 

@@ -2067,7 +2067,7 @@ body.boxed-wrapper {
 }
 
 .real-world .section-title__tagline {
-    color: #8f8da0;
+    color: rgba(255,255,255,0.8);
 }
 
 .real-world__single {
@@ -9608,4 +9608,19 @@ figure.ratio{
     float: right;
     margin-top: 10px;
 }
+.largest-business.pt-150{
+    padding-top: 150px;
+    background: #222;
+}
+.largest-business .largest-business__layer-outer-right{
+    opacity: 0.5;
+}
 
+.news-one.vacancies .news-one__date-box{
+    top: 0;
+}
+.news-one.vacancies .news-one__content{
+    padding-top: 60px;
+    margin-top: 0;
+    background: #f4f4f4;
+}

@@ -4299,7 +4299,6 @@ body.boxed-wrapper {
     height: 100%;
     background-size: cover;
     background-color: var(--thm-black);
-    background-blend-mode: luminosity;
 }
 
 .largest-business__left {
@@ -9687,7 +9686,7 @@ figure.ratio{
     background: #222;
 }
 .largest-business .largest-business__layer-outer-right{
-    opacity: 0.5;
+    opacity: 1;
 }
 
 .news-one.vacancies .news-one__date-box{
@@ -9827,4 +9826,137 @@ figure.ratio{
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
+}
+
+.testimonials-one.career h3{
+   margin-bottom: 20px;
+   font-weight: 700;
+}
+
+.career-one__carousel .testimonials-one__single{
+    height: 100%;
+    padding-bottom: 150px;
+    padding: 0;
+    box-shadow: none;
+    margin-bottom: 30px;
+}
+.career-one__carousel .owl-prev,
+.career-one__carousel .owl-next{
+    width: 50px;
+    height: 50px;
+    background: #fff !important;
+    position: absolute;
+    bottom: -50px;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+.career-one__carousel .owl-prev{
+    left: -103px;
+}
+.career-one__carousel .owl-next{
+    left: -53px;
+    background: #f2f2f2 !important;
+}
+.career-one__carousel .owl-prev:hover,
+.career-one__carousel .owl-next:hover{
+    color: var(--thm-primary) !important;
+}
+
+.career-one__carousel .testimonials-one__single h3{
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #333;
+}
+.career-one__carousel .testimonials-one__single h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--thm-primary);
+    margin-bottom: 20px;
+}
+.career-one__carousel .owl-dots{
+    position: absolute;
+    right: 0;
+}
+.career-one__carousel .owl-dot span{
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+    transition: all ease-out 0.3s !important;
+    -webkit-transition: all ease-out 0.3s !important;
+    -moz-transition: all ease-out 0.3s !important;
+    -ms-transition: all ease-out 0.3s !important;
+    -o-transition: all ease-out 0.3s !important;
+}
+.career-one__carousel .owl-dot.active span{
+    width: 60px;
+    background: var(--thm-primary) !important;
+}
+
+.testimonials-one.career{
+    background: url(../images/bank/teams.jpg) no-repeat center;
+    background-size: cover;
+}
+.testimonials-one.career::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--thm-primary);
+    opacity: 0.6;
+}
+.testimonials-one.career .col-xl-6.bg-white.p-5{
+    padding-bottom: 80px !important;
+    z-index: 2;
+}
+
+.tab-ct-group{
+    background: #fff;
+    width: 100%;
+    float: left;
+    padding: 40px 30px;
+}
+.tab-item{
+    display: none;
+}
+.tab-item.show{
+    display: block;
+}
+.tab-item .pic{
+    width: 100px;
+    float: left;
+}
+.tab-item .text{
+    width: calc(100% - 100px);
+    float: left;
+    padding-left: 30px;
+}
+.tab-item .text h3{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.tab-item .text p{
+    margin-bottom: 0;
+}
+.tab-nav{
+    width: 100%;
+    float: left;
+}
+.tab-nav a{
+    display: inline-block;
+    padding: 20px 30px;
+    background: rgba(0,0,0,0.05);
+    margin-left: -5px;
+}
+.tab-nav a.active{
+    background: #fff;
+}
+.tab-nav a:first-child{
+    margin-left: 0;
 }

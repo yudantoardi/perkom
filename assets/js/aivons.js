@@ -173,6 +173,41 @@
     });
   }
 
+  // Testimonial One Carousel
+  if ($(".career-one__carousel").length) {
+    $(".career-one__carousel").owlCarousel({
+      loop: true,
+      margin: 30,
+      nav: true,
+      smartSpeed: 500,
+      autoHeight: false,
+      autoplay: true,
+      dots: true,
+      autoplayTimeout: 10000,
+      navText: [
+        '<i class="fa fa-angle-left"></i>',
+        '<i class="fa fa-angle-right"></i>',
+      ],
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 1,
+        },
+        800: {
+          items: 1,
+        },
+        1024: {
+          items: 1,
+        },
+        1200: {
+          items: 1,
+        },
+      },
+    });
+  }
+
   /*Product Slider*/
   if ($(".products-one__carousel").length) {
     $(".products-one__carousel").owlCarousel({
@@ -835,7 +870,14 @@
     });
   };
 
-  
+  $(".tab-nav a").click(function(tb){
+    tb.preventDefault();
+    $(".tab-nav a").removeClass("active");
+    $(this).addClass("active");
+
+    $(".tab-item").removeClass("show");
+    $($(this).attr("href")).addClass("show");
+  });
 
 
 })(jQuery);

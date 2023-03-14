@@ -1561,18 +1561,19 @@ body.boxed-wrapper {
     transition: transform 7000ms ease;
     z-index: 1;
     background-color: var(--thm-black);
-    opacity: 0.5;
+    opacity: 1;
     background-position: center center;
 }
 .main-slider .image-layer::before{
-    
+    content: "";
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    background: var(--thm-black);
-    z-index: -2;
+    background: var(--thm-primary);
+    z-index: 2;
+    opacity: 0.5;
 }
 
 .main-slider-three .image-layer {

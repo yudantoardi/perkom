@@ -9996,3 +9996,7 @@ figure.ratio{
     padding: 80px 20px 30px;
     background: linear-gradient(0deg, rgba(15,13,29,0.7) 0%, rgba(15,13,29,0) 100%);
 }
+
+.solution-items.detail .services-two__single{
+    min-height: 380px
+}

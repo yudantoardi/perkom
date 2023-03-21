@@ -10000,3 +10000,9 @@ figure.ratio{
 .solution-items.detail .services-two__single{
     min-height: 380px
 }
+
+.services-two__icon img{
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+}

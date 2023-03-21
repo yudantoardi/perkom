@@ -5667,7 +5667,8 @@ body.boxed-wrapper {
     background-color: var(--thm-base);
     box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 4%);
     margin-bottom: 60px;
-    padding: 30px 36px 40px;
+    padding: 30px 36px 18px;
+    float: left;
 }
 
 
@@ -9998,11 +9999,44 @@ figure.ratio{
 }
 
 .solution-items.detail .services-two__single{
-    min-height: 380px
+    min-height: 420px
 }
 
 .services-two__icon img{
     width: 60%;
     height: 60%;
     object-fit: contain;
+}
+
+.logo-group{
+    width: 100%;
+}
+.logo-group img{
+    width: 33.33%;
+    float: left;
+    height: 60px;
+    object-fit: contain;
+    padding: 0 5px;
+}
+
+.services-two__single .divider{
+    font-size: 12px;
+    width: 100%;
+    position: relative;
+}
+.services-two__single .divider span{
+    background: #fff;
+    padding-right: 10px;
+    position: relative;
+    z-index: 2;
+}
+.services-two__single .divider::before{
+    content: "";
+    width: 100%;
+    left: 0;
+    height: 1px;
+    background: #dedede;
+    position: absolute;
+    left: 0;
+    top: 50%;
 }

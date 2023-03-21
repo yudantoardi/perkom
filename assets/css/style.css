@@ -1573,7 +1573,7 @@ body.boxed-wrapper {
     left: 0;
     background: var(--thm-black);
     z-index: 2;
-    opacity: 0.3;
+    opacity: 0.25;
 }
 
 .main-slider-three .image-layer {
@@ -2189,7 +2189,7 @@ body.boxed-wrapper {
 .brand-one {
     position: relative;
     display: block;
-    background-color: var(--thm-primary);
+    background-color: #f4f4f4;
     padding: 128px 0 119px;
 }
 

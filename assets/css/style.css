@@ -9856,11 +9856,11 @@ figure.ratio{
     -o-border-radius: 0 !important;
 }
 .career-one__carousel .owl-prev{
-    left: -103px;
+    right: -53px;
+    background: #f2f2f2 !important;
 }
 .career-one__carousel .owl-next{
-    left: -53px;
-    background: #f2f2f2 !important;
+    right: -103px;
 }
 .career-one__carousel .owl-prev:hover,
 .career-one__carousel .owl-next:hover{
@@ -9880,7 +9880,8 @@ figure.ratio{
 }
 .career-one__carousel .owl-dots{
     position: absolute;
-    right: 0;
+    left: 0;
+    bottom: -40px;
 }
 .career-one__carousel .owl-dot span{
     border-radius: 0 !important;
@@ -9900,7 +9901,7 @@ figure.ratio{
 }
 
 .testimonials-one.career{
-    background: url(../images/bank/teams.jpg) no-repeat center;
+    background: url(../images/bank/office.jpg) no-repeat center;
     background-size: cover;
 }
 .testimonials-one.career::before{
@@ -10039,4 +10040,15 @@ figure.ratio{
     position: absolute;
     left: 0;
     top: 50%;
+}
+
+.largest-business__layer-outer-right::before{
+    content: "";
+    width: 450px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/bank/career-accent.png) no-repeat right center;
+    background-size: cover;
 }

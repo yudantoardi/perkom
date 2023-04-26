@@ -10083,3 +10083,29 @@ figure.ratio{
     -ms-transform: translate(-50%,-50%) scale(0.8);
     -o-transform: translate(-50%,-50%) scale(0.8);
 }
+
+/*UPDATES*/
+.services-two__single{
+    width: 100%;
+    position: relative;
+    height: 120px;
+}
+.services-two__single h4.services-two__title{
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    line-height: 20px;
+    text-transform: none;
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.row.five-col .col-lg-2{
+    width: 20%;
+}
